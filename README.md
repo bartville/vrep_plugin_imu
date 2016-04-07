@@ -4,7 +4,7 @@ VREP_PLUGIN_IMU
 - - - - 
 
 # WHY SHOULD I USE IT #
-You need to publish imu infoes from VREP with **sensor_msgs/Imu messages** that unluckly are not implemented yet
+You need to publish imu infoes from VREP with **sensor_msgs/Imu messages**
 
 ## INSTALLATION ##
 clone the repository in your ros_package directory (the one you used to install Vrep Ros plugins)
