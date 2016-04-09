@@ -131,7 +131,7 @@ void ROS_server::streamAllData()
 	}
 	sensor_msgs::Imu fl;
 	//fl.header.seq=_simulationFrameID;
-	//fl.header.stamp=inf.headerInfo.stamp;
+	fl.header.stamp=ros::Time::now();
 	fl.orientation.x=0.0; //TODO orientation
 	fl.orientation.y=0.0;
 	fl.orientation.z=0.0;
